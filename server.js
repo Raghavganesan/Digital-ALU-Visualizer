@@ -4,7 +4,7 @@ import { exec } from "child_process";
 
 const app = express();
 app.use(express.json());
-app.use(express.static("."));
+app.use(express.static("public"));
 
 const selMap = {
   "000": "Addition",
